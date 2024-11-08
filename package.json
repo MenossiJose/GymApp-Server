@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "express server",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "nodemon start",
+    "dev": "nodemon server.js --ignore *.marko.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MenossiJose/Certificadora_2.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "_jose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MenossiJose/Certificadora_2/issues"
+  },
+  "homepage": "https://github.com/MenossiJose/Certificadora_2#readme"
+}
